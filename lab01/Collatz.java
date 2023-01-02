@@ -2,14 +2,15 @@
  *  @author YOUR NAME HERE
  */
 public class Collatz {
-    public static void seq(int n) {
-
-    }
 
     /** Returns the nextNumber in a Collatz sequence. */
     public static int nextNumber(int n) {
         // TODO: Fill in this method.
-        return 1;
+        if (n % 2 == 0) {
+            return 1;
+        } else {
+            return 3 * n + 1;
+        }
     }
 
     public static void main(String[] args) {
@@ -22,7 +23,6 @@ public class Collatz {
             System.out.print(n + " ");
         }
         System.out.println();
-        seq(9);
     }
 }
 
