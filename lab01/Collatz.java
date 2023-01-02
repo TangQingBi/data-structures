@@ -2,6 +2,9 @@
  *  @author YOUR NAME HERE
  */
 public class Collatz {
+    public static void seq(int n) {
+        
+    }
 
     /** Returns the nextNumber in a Collatz sequence. */
     public static int nextNumber(int n) {
